@@ -1,9 +1,10 @@
 describe('Sample test', () => {
   beforeAll(async () => {
-    await page.goto('https://google.com');
+    await page.goto('http://localhost:8000');
   });
 
-  it('should be titled "Google"', async () => {
-    await expect(page.title()).resolves.toMatch('Google');
+  it('should be titled "test"', async () => {
+    const title = await page.title();
+    expect(title).toBe('test');
   });
 });

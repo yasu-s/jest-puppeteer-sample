@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest",
     "test:w": "jest --watch",
-    "lint": "eslint test --ext .ts"
+    "lint": "eslint test --ext .ts",
+    "lite-server": "lite-server --baseDir=public"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
@@ -19,6 +20,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.5.1",
     "jest-puppeteer": "^6.1.0",
+    "lite-server": "^2.6.1",
     "prettier": "^2.5.1",
     "puppeteer": "^13.4.0",
     "ts-jest": "^27.1.3",
