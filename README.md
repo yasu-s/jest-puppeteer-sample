@@ -28,6 +28,8 @@ yarn lite-server
 
 ### テスト実行
 
+- テスト用WEBサイト起動時のターミナルとは別のターミナルで実行
+
 ```bash
  yarn test
 ```
