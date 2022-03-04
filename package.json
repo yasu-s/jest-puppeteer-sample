@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
+    "@types/jest-image-snapshot": "^4.3.1",
     "@types/puppeteer": "^5.4.5",
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "@typescript-eslint/parser": "^5.12.1",
@@ -19,6 +20,7 @@
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "^27.5.1",
+    "jest-image-snapshot": "^4.5.1",
     "jest-puppeteer": "^6.1.0",
     "lite-server": "^2.6.1",
     "prettier": "^2.5.1",
