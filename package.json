@@ -6,7 +6,7 @@
     "test": "jest",
     "test:w": "jest --watch",
     "lint": "eslint test --ext .ts",
-    "lite-server": "lite-server --baseDir=public"
+    "lite-server": "lite-server"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
