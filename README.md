@@ -12,6 +12,8 @@
 - ts-jest - 27.1.x
 - TypeScript - 4.5.x
 - jest-puppeteer - 6.1.x
+- @types/jest - 27.4.x
+- @types/puppeteer - 5.4.x
 - lite-server - 2.6.x (テスト用WEBサイトとして使用)
 
 ## 動作確認
