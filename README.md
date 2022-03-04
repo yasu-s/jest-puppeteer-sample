@@ -9,6 +9,8 @@
 - Node.js - 14.x
 - Yarn - 1.22.x
 - Jest - 27.5.x
+- ts-jest - 27.1.x
+- TypeScript - 4.5.x
 - jest-puppeteer - 6.1.x
 - lite-server - 2.6.x (テスト用WEBサイトとして使用)
 
