@@ -1,4 +1,6 @@
 {
   "port": 8000,
-  "server": { "baseDir": "./public" }
+  "server": { "baseDir": "./public" },
+  "open": false,
+  "notify": false
 }
