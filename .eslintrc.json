@@ -46,6 +46,7 @@
     "no-console": "warn",
     "no-debugger": "error",
     "no-warning-comments": ["warn", { "terms": ["todo", "fixme", "hack"], "location": "anywhere" }],
+    "implicit-arrow-linebreak": "error",
     "jest/consistent-test-it": ["error", {"fn": "it"}],
     "jest/max-nested-describe": ["error", { "max": 3 }],
     "jest/no-duplicate-hooks": "error",
