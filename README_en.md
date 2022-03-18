@@ -1,16 +1,17 @@
 # jest-puppeteer-sample
 
-## 概要
+## Overview
 
-- jest-puppeteerを使用してWEBサイトのテストを行うサンプルです。
-- jest-image-snapshotによってWEBサイトのスクリーンショットを画像比較します。
+- This is a sample for testing a website using jest-puppeteer. 
+- Compare screenshots of websites with jest-image-snapshot. 
 
-## 動作環境
+## System Requirements
 
 - Node.js - 14.x
 - Yarn - 1.22.x
 
-## ライブラリ
+
+## Library
 
 - Jest - 27.5.x
 - ts-jest - 27.1.x
@@ -20,31 +21,31 @@
 - @types/jest - 27.4.x
 - @types/puppeteer - 5.4.x
 - @types/jest-image-snapshot - 4.3.x
-- lite-server - 2.6.x (テスト用WEBサイトとして使用)
+- lite-server - 2.6.x (Used as a test website)
 
-## 動作確認
+## Usage
 
-### パッケージインストール
+### Package installation 
 
 ```bash
 yarn
 ```
 
-### テスト用WEBサイト起動
+### Launch test website 
 
 ```bash
 yarn lite-server
 ```
 
-### テスト実行
+### Test run 
 
-- テスト用WEBサイト起動時のターミナルとは別のターミナルで実行
+- Execute in a terminal different from the terminal when the test website is started 
 
 ```bash
 yarn test
 ```
 
-## 実行結果
+## Execution result
 
 ```bash
 $ jest
@@ -61,7 +62,7 @@ Ran all test suites.
 ✨  Done in 4.65s.
 ```
 
-## サンプルソース
+## Source
 
 ```typescript
 describe('Sample test', () => {
@@ -90,7 +91,7 @@ describe('Sample test', () => {
 });
 ```
 
-## 参考URL
+## Reference URL 
 
 - https://jestjs.io/ja/docs/puppeteer
 - https://www.npmjs.com/package/jest-puppeteer
